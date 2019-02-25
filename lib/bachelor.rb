@@ -41,7 +41,8 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  data[season].each_with_index {|x,y|
-    binding.pry
+  arr = Array.new
+  data[season].each {|x|
+    arr.push(data[season][])
   }
 end
